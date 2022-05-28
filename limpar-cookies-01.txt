@@ -1,0 +1,6 @@
+function limpacookie()
+{
+  if (file_exists("cookie.txt")) {
+    unlink("cookie.txt");
+  }
+}
